@@ -18,6 +18,7 @@ Progression:
      The project has completed CAD models and is ready to begin physical prototyping via 3D printing. In addition, the project is also entering  the phase where we are        programming the microcontroller and using breadboard to test components.     
      
 Trello:  
+https://trello.com/b/S6caR4iL/softwhere  
 ![Trello](https://user-images.githubusercontent.com/56273440/197897360-5b0d1142-41d0-482b-b636-3af4ce017203.PNG)  
 
 Video Link for Assignment 2 - 
