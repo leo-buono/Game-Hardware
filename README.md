@@ -21,7 +21,7 @@ Trello:
 https://trello.com/b/S6caR4iL/softwhere  
 ![Trello](https://user-images.githubusercontent.com/56273440/197897360-5b0d1142-41d0-482b-b636-3af4ce017203.PNG)  
 
-Video Link for Assignment 2 -  
+Video Link for Assignment 2 - https://youtu.be/B3a3DfTxIls  
 
 GrabCAD Links:  
 https://grabcad.com/library/slide-potentiometers-1  
