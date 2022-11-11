@@ -1,4 +1,0 @@
-by JJ,
-Estimated time according to Cura: 11:49 hours
-30.60 distance
-Gradual infill enabled (90%)
