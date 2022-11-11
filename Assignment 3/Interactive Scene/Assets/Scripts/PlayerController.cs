@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
 	public float rotSpeed = 360f;
 	public float speed = 5f;
 	public InputAction movement;
+	public float jumpForce = 10f;
+	public InputAction jump;
 	public Transform meshBody;
 	public Transform head;
 	Rigidbody rb;
@@ -29,14 +31,20 @@ public class PlayerController : MonoBehaviour
 			input = Vector2.zero;
 			moving = false;
 		};
+		jump.started += ctx => {
+			if (colCount > 0)
+				rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+		};
 	}
 
 	private void OnEnable() {
 		movement.Enable();
+		jump.Enable();
 	}
 
 	private void OnDisable() {
 		movement.Disable();
+		jump.Disable();
 	}
 
 	private void Update() {
@@ -56,5 +64,15 @@ public class PlayerController : MonoBehaviour
 			yield return WFFU;
 			rb.velocity = head.rotation * new Vector3(input.x * speed, rb.velocity.y, input.y * speed);
 		}
+	}
+
+	int colCount = 0;
+
+	private void OnCollisionEnter(Collision other) {
+		++colCount;
+	}
+
+	private void OnCollisionExit(Collision other) {
+		--colCount;
 	}
 }
