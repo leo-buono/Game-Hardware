@@ -9,12 +9,24 @@ Members & Roles:
 3. Léo Buono - 100748457  
    - Prototyper  
 
-Contributions:  
+Contributions:
+  
+Assignment 3:  
+     Jonathan Jay:           Created test Unity program, prepared model in slicer and constructed controller.           
+     Matthew McPherson:    Catalogued all information about the controllers develeopment, created pressentation focusing on iteration, and general support.   
+         (would have helped with construction but was unable to due to the Go Bus strike making commuting to campus impossible).    
+     Léo Buono:            3D printed model, programmed micro controller and constructed controller.  
+       
+Assignment 2:  
      Jonathan Jay:        CAD model, Electronic Schematics  
      Matthew McPherson:   Electronic Schematics, Components List, GrabCAD model search  
      Léo Buono:           Electronic Schematics, Components List, GrabCAD model search  
 
-Progression:  
+Progression: 
+Assignment 3:  
+   First 3D print has been created and some functions have been programmed and wired.  
+  
+Assignment 2:  
      The project has completed CAD models and is ready to begin physical prototyping via 3D printing. In addition, the project is also entering the phase where we are programming the microcontroller and using breadboard to test components.     
 
 Trello:  
