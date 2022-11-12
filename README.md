@@ -1,37 +1,52 @@
 # Game-Hardware
 For the purpose of Game Hardware course at OTU (Team Name - SoftWhere?)
 
-Members & Roles:   
+**Members & Roles:**   
 1. Jonathan Jay - 100743575   
-   - Programmer  
+   - Prototyper 
 2. Matthew McPherson - 100757379 
    - Designer  
 3. Léo Buono - 100748457  
-   - Prototyper  
+   - Programmer  
 
-Contributions:
-  
-Assignment 3:  
+**Contributions:**    
      Jonathan Jay:           Created test Unity program, prepared model in slicer and constructed controller.           
-     Matthew McPherson:    Catalogued all information about the controllers develeopment, created pressentation focusing on iteration, and general support.   
+     Matthew McPherson:    Catalogued all information about the controllers develeopment, created pressentation focusing on iteration, and general support and design advice.   
          (would have helped with construction but was unable to due to the Go Bus strike making commuting to campus impossible).    
      Léo Buono:            3D printed model, programmed micro controller and constructed controller.  
        
-Assignment 2:  
+
+**Progression:**   
+   First 3D print has been created and most functions have been programmed and wired.    
+  Print Details:  
+  Grip Print: ~6 hours; 39g blue PLA  
+  Everything else: (printed with a raft) ~6 hours; 42g green PLA  
+     
+
+**Trello (as of Assignment 3):**  
+https://trello.com/b/S6caR4iL/softwhere  
+![Trello 3](https://user-images.githubusercontent.com/56273460/201446837-26a1cec7-7e5b-4bfa-9e28-6410aa2b155a.png)
+  
+**In the Assignment 3 folder you will find:**  
+- Images of our 3D print and electronic components  
+- Video folder containing Slicer animations  
+- A folder containing the 3D print files  
+- A folder containing our interactive scene  
+  
+    
+    
+    
+  
+
+**Assignment 2 ReadMe Archive:**  
+
+Contributions:  
      Jonathan Jay:        CAD model, Electronic Schematics  
      Matthew McPherson:   Electronic Schematics, Components List, GrabCAD model search  
      Léo Buono:           Electronic Schematics, Components List, GrabCAD model search  
-
-Progression: 
-Assignment 3:  
-   First 3D print has been created and some functions have been programmed and wired.  
-  
-Assignment 2:  
-     The project has completed CAD models and is ready to begin physical prototyping via 3D printing. In addition, the project is also entering the phase where we are programming the microcontroller and using breadboard to test components.     
-
-Trello (as of Assignment 3):  
-https://trello.com/b/S6caR4iL/softwhere    
-![Trello 3](https://user-images.githubusercontent.com/56273440/201436715-dbc08331-e08f-484c-ab64-f157937439ef.PNG)
+     
+Progress:  
+     The project has completed CAD models and is ready to begin physical prototyping via 3D printing. In addition, the project is also entering the phase where we are programming the microcontroller and using breadboard to test components.
 
 In the Assignment 2 folder, you will find:  
 -The step file for our controller  
