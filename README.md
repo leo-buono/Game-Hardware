@@ -24,9 +24,9 @@ For the purpose of Game Hardware course at OTU (Team Name - SoftWhere?)
      
 
 **Trello (as of Assignment 3):**  
-https://trello.com/b/S6caR4iL/softwhere    
-![Trello 3](https://user-images.githubusercontent.com/56273440/201436715-dbc08331-e08f-484c-ab64-f157937439ef.PNG)
-
+https://trello.com/b/S6caR4iL/softwhere  
+![Trello 3](https://user-images.githubusercontent.com/56273460/201446837-26a1cec7-7e5b-4bfa-9e28-6410aa2b155a.png)
+  
 **In the Assignment 3 folder you will find:**  
 - Images of our 3D print and electronic components  
 - Video folder containing Slicer animations  
