@@ -21,7 +21,8 @@ First 3D print has been created and most functions have been programmed and wire
 Print Details:  
 Grip Print: ~6 hours; 39g blue PLA  
 Everything else: (printed with a raft) ~6 hours; 42g green PLA  
-    
+  
+(14 minute video because of no listed time limit on assignment outline)  
 Project Progression Video: https://youtu.be/8G_iirl803k  
      
 
@@ -31,9 +32,9 @@ https://trello.com/b/S6caR4iL/softwhere
   
 **In the Assignment 3 folder you will find:**  
 - Images of our 3D print and electronic components  
-- Video folder containing Slicer animations  
+- Video folder containing Slicer animations and youtube links to said animations  
 - A folder containing the 3D print files  
-- A folder containing our interactive scene  
+- A folder containing our interactive scene, which is also playable on the github pages (readme there for more details)  
   
     
     
