@@ -17,10 +17,12 @@ For the purpose of Game Hardware course at OTU (Team Name - SoftWhere?)
        
 
 **Progression:**   
-   First 3D print has been created and most functions have been programmed and wired.    
-  Print Details:  
-  Grip Print: ~6 hours; 39g blue PLA  
-  Everything else: (printed with a raft) ~6 hours; 42g green PLA  
+First 3D print has been created and most functions have been programmed and wired.    
+Print Details:  
+Grip Print: ~6 hours; 39g blue PLA  
+Everything else: (printed with a raft) ~6 hours; 42g green PLA  
+    
+Project Progression Video: https://youtu.be/8G_iirl803k  
      
 
 **Trello (as of Assignment 3):**  
