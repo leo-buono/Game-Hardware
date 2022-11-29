@@ -29,7 +29,7 @@
 
 //4 face button pins (Or I guess back buttons in this case)
 #define A_Button 13
-#define B_Button 15 //MUST BE PULLED HIGH
+#define B_Button 16 
 #define X_Button 14
 #define Y_Button 27
 
@@ -41,12 +41,12 @@
 #define Shift_Button 04
 
 //LB and RB
-#define Left_Bumper 34 //INPUT ONLY GPIO PINS!!
-#define Right_Bumper 35 //INPUT ONLY GPIO PINS!!
+#define Left_Bumper 25
+#define Right_Bumper 26
 
 //Analog Stick
-#define X_Stick 25 
-#define Y_Stick 26
+#define X_Stick 34//34 //INPUT ONLY GPIO PINS!!
+#define Y_Stick 35//35 //INPUT ONLY GPIO PINS!!
 
 #define Left_Trigger 36 //INPUT ONLY GPIO PINS!!
 #define Right_Trigger 39 //INPUT ONLY GPIO PINS!!
@@ -67,21 +67,21 @@ void setup()
     Serial.begin(115200);
     
     //Face (Back of device) Buttons
-    pinMode(A_Button, INPUT);
-    pinMode(B_Button, INPUT);
-    pinMode(X_Button, INPUT);
-    pinMode(Y_Button, INPUT);
+    pinMode(A_Button, INPUT_PULLUP);
+    pinMode(B_Button,  INPUT_PULLUP);
+    pinMode(X_Button,  INPUT_PULLUP);
+    pinMode(Y_Button,  INPUT_PULLUP);
 
     // //Start/Select
-    pinMode(Start_Button, INPUT);
-    pinMode(Select_Button, INPUT);
+    pinMode(Start_Button,  INPUT_PULLUP);
+    pinMode(Select_Button,  INPUT_PULLUP);
 
     // //Shift button
-    pinMode(Shift_Button, INPUT);
+    pinMode(Shift_Button,  INPUT_PULLUP);
     
     // //Bumpers
-    pinMode(Left_Bumper, INPUT);
-    pinMode(Right_Bumper, INPUT);    
+    pinMode(Left_Bumper,  INPUT);
+    pinMode(Right_Bumper,  INPUT);    
 
     pinMode(X_Stick, INPUT);
     pinMode(Y_Stick, INPUT);
@@ -112,14 +112,14 @@ void loop()
       ////ANALOG STICK     
       //bleGamepad.setAxes(stick[0] * !shift * ANALOG_FACTOR, stick[1] * !shift * ANALOG_FACTOR, 0, stick[0] * shift * ANALOG_FACTOR, stick[1] * shift * ANALOG_FACTOR, 0, stick[2] * ANALOG_FACTOR, stick[3] * ANALOG_FACTOR);
       //bleGamepad.setAxes(stick[0] * !shift, stick[1] * !shift, 0, stick[0] * shift, stick[1] * shift, 0, 0, 0);
-      bleGamepad.setAxes(2048, 2048, 2048, 2048, stick[2] * ANALOG_FACTOR, stick[3] *ANALOG_FACTOR, 0,0);    
+      bleGamepad.setAxes(2048, 2048, 2048, 2048, stick[2] * ANALOG_FACTOR, stick[3] * ANALOG_FACTOR, 0,0);    
 
       //Face Buttons and Dpad
       if(shift == HIGH)
       {
+        digitalWrite(LED, LOW);                   
        for(int i = 0; i < 4; i++)
        {
-          digitalWrite(LED, LOW);                   
           if(digitalRead(faceButtons[i]) == LOW) 
           {
             bleGamepad.press(allButtons[i]);
@@ -134,7 +134,7 @@ void loop()
       {
         digitalWrite(LED, 255);
         for(int i = 0; i < 4; i++)
-        {
+        { 
           if(digitalRead(faceButtons[i]) == LOW) 
           {
             bleGamepad.setHat1(allButtons[i + 4]);
@@ -149,7 +149,7 @@ void loop()
 
 
       // //Start and Select
-      if(digitalRead(Start_Button) == LOW)
+      if(digitalRead(Start_Button) == HIGH)
       {
         bleGamepad.press(BUTTON_9);
       }  
@@ -157,7 +157,7 @@ void loop()
       {
         bleGamepad.release(BUTTON_9);        
       }
-      if(digitalRead(Select_Button) == LOW)
+      if(digitalRead(Select_Button) == HIGH)
       {
         bleGamepad.press(BUTTON_10);
       }  
@@ -170,7 +170,7 @@ void loop()
 
 
 
-      if(digitalRead(Right_Bumper) == LOW)
+      if(digitalRead(Right_Bumper) == HIGH)
       {
         bleGamepad.press(BUTTON_5);
       }  
@@ -178,7 +178,7 @@ void loop()
       {
         bleGamepad.release(BUTTON_5);        
       }
-      if(digitalRead(Left_Bumper) == LOW)
+      if(digitalRead(Left_Bumper) == HIGH)
       {
         bleGamepad.press(BUTTON_6);
       }  
