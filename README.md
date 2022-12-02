@@ -12,7 +12,7 @@ For the purpose of Game Hardware course at OTU (Team Name - SoftWhere?)
 **Contributions:**    
      Jonathan Jay:           Created test Unity program, prepared model in slicer, created technical drawings and exploded view animation, QFD and SUS Analysis, and constructed controller.           
      Matthew McPherson:    Catalogued all information about the controllers develeopment, created pitch presentation, constructed controller, wrote report, and general support and design advice.   
-     Léo Buono:            3D printed model, programmed micro controller, wrote literature review, soltered and constructed controller.  
+     Léo Buono:            3D printed model, programmed micro controller, wrote literature review, QFD and SUS Analysis, soldered and constructed controller.  
        
 
 **Progression:**   
@@ -20,11 +20,13 @@ Final iteration has been created, 3D printed and constructed.
 
   
 **Videos**  
-Final Project Overview: 
+Final Project Overview: https://youtu.be/Jnym4vkfmT4
 Exploded View: https://youtu.be/CayruH1D1og  
 Assembley: https://youtu.be/mAC65vVBCyk  
 
-  
+
+**Past Assignment ReadMe Archive**  
+
 **Assignment 3 ReadMe Archive:**     
     
 **Contributions:**    
