@@ -19,8 +19,10 @@ For the purpose of Game Hardware course at OTU (Team Name - SoftWhere?)
 Final iteration has been created, 3D printed and constructed.    
 
   
-(14 minute video because of no listed time limit on assignment outline)  
-Project Progression Video: https://youtu.be/8G_iirl803k  
+**Videos**  
+Final Project Overview: 
+Exploded View: https://youtu.be/CayruH1D1og  
+Assembley: https://youtu.be/mAC65vVBCyk  
   
 **In the Final Assignment folder you will find:**  
   
