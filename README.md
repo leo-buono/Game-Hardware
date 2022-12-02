@@ -10,13 +10,30 @@ For the purpose of Game Hardware course at OTU (Team Name - SoftWhere?)
    - Programmer  
 
 **Contributions:**    
-     Jonathan Jay:           Created test Unity program, prepared model in slicer and constructed controller.           
-     Matthew McPherson:    Catalogued all information about the controllers develeopment, created pressentation focusing on iteration, and general support and design advice.   
-         (would have helped with construction but was unable to due to the Go Bus strike making commuting to campus impossible).    
-     Léo Buono:            3D printed model, programmed micro controller and constructed controller.  
+     Jonathan Jay:           Created test Unity program, prepared model in slicer, created technical drawings and exploded view animation, and constructed controller.           
+     Matthew McPherson:    Catalogued all information about the controllers develeopment, created pitch presentation, constructed controller, wrote report, and general support and design advice.   
+     Léo Buono:            3D printed model, programmed micro controller, wrote literature review, soltered and constructed controller.  
        
 
 **Progression:**   
+Final iteration has been created, 3D printed and constructed.    
+
+  
+(14 minute video because of no listed time limit on assignment outline)  
+Project Progression Video: https://youtu.be/8G_iirl803k  
+  
+**In the Final Assignment folder you will find:**  
+  
+  
+**Assignment 3 ReadMe Archive:**     
+    
+**Contributions:**    
+     Jonathan Jay:           Created test Unity program, prepared model in slicer and constructed controller.           
+     Matthew McPherson:    Catalogued all information about the controllers develeopment, created pressentation focusing on iteration, and general support and design advice.   
+         (would have helped with construction but was unable to due to the Go Bus strike making commuting to campus impossible).    
+     Léo Buono:            3D printed model, programmed micro controller and constructed controller.      
+ 
+ **Progression:**   
 First 3D print has been created and most functions have been programmed and wired.    
 Print Details:  
 Grip Print: ~6 hours; 39g blue PLA  
@@ -34,12 +51,7 @@ https://trello.com/b/S6caR4iL/softwhere
 - Images of our 3D print and electronic components  
 - Video folder containing Slicer animations and youtube links to said animations  
 - A folder containing the 3D print files  
-- A folder containing our interactive scene, which is also playable on the github pages (readme there for more details)  
-  
-    
-    
-    
-  
+- A folder containing our interactive scene, which is also playable on the github pages (readme there for more details)
 
 **Assignment 2 ReadMe Archive:**  
 
