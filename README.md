@@ -23,9 +23,7 @@ Final iteration has been created, 3D printed and constructed.
 Final Project Overview: 
 Exploded View: https://youtu.be/CayruH1D1og  
 Assembley: https://youtu.be/mAC65vVBCyk  
-  
-**In the Final Assignment folder you will find:**  
-  
+
   
 **Assignment 3 ReadMe Archive:**     
     
