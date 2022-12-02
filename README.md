@@ -10,7 +10,7 @@ For the purpose of Game Hardware course at OTU (Team Name - SoftWhere?)
    - Programmer  
 
 **Contributions:**    
-     Jonathan Jay:           Created test Unity program, prepared model in slicer, created technical drawings and exploded view animation, and constructed controller.           
+     Jonathan Jay:           Created test Unity program, prepared model in slicer, created technical drawings and exploded view animation, QFD and SUS Analysis, and constructed controller.           
      Matthew McPherson:    Catalogued all information about the controllers develeopment, created pitch presentation, constructed controller, wrote report, and general support and design advice.   
      Léo Buono:            3D printed model, programmed micro controller, wrote literature review, soltered and constructed controller.  
        
